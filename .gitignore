@@ -1,2 +1,17 @@
 node_modules/
 *.log
+.idea
+yarn.lock
+
+# idp cert for dev env
+/resources/certs-idp/
+
+Jenkinsfile
+Github-Release.Jenkinsfile
+
+# have no usages
+.env.dev
+.env.test
+
+# because a user have to put in their own cert
+/resources/certs-idp/dev-idp-ca.crt
