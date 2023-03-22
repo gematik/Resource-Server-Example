@@ -1,15 +1,47 @@
 {
   "name": "resouce-server-example",
-  "version": "1.0.0",
+  "version": "4.0.0",
+  "private": true,
+  "author": "Gematik GmbH",
+  "description": "Example Relaying Party project for testing gematik Authenticator",
+  "license": "European Union Public License 1.2",
   "main": "index.js",
-  "repository": "https://build.top.local/source/authenticator/resouce-server-example.git",
-  "author": "GNDEV060\\eike.bartels <eike.bartels@gematik.de>",
-  "license": "MIT",
   "scripts": {
-    "serve": "node index.js"
+    "dev": "set NODE_ENV=dev&& nodemon index.js",
+    "test": "set NODE_ENV=test&& nodemon index.js",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gematik/Resource-Server-Example",
+    "provider": "github"
+  },
+  "bugs": {
+    "url": "https://github.com/gematik/Resource-Server-Example/issues"
   },
   "dependencies": {
-    "fastify": "^3.17.0",
-    "fastify-cors": "^6.0.1"
+    "@fastify/cookie": "^8.3.0",
+    "@fastify/cors": "^8.2.0",
+    "@fastify/session": "^10.1.0",
+    "@types/dotenv": "^8.2.0",
+    "axios": "^0.27.2",
+    "base64url": "^3.0.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "fastify": "^4.10.2",
+    "fastify-auth": "^1.2.0",
+    "fastify-express": "^0.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-forge": "^0.10.0",
+    "node-jose": "^2.1.0",
+    "oidc-provider": "^7.11.2",
+    "qs": "^6.10.1",
+    "randombytes": "^2.1.0",
+    "randomstring": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "patch-package": "^6.4.7",
+    "prettier": "^2.3.1"
   }
 }

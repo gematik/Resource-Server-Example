@@ -1,0 +1,21 @@
+#this is created for dev-environment. Here is up to you to modify it for your own locally use!
+
+#-----------gematik-ref-idp-server-------------
+GEMATIK_REF_IDP_SERVER=http://localhost:8080
+GEMATIK_REF_IDP_SERVER_AUTH_ENDPOINT=http://localhost:8080/sign_response
+GEMATIK_REF_IDP_SERVER_TOKEN_ENDPOINT=http://localhost:8080/token
+GEMATIK_REF_IDP_SERVER_CLIENT_ID=AuthenticatorDevLocal
+
+#-----------central-idp-server-------------
+CENTRAL_IDP_SERVER=https://IDP
+CENTRAL_IDP_SERVER_AUTH_ENDPOINT=https://AUTH_ENDPOINT/auth
+CENTRAL_IDP_SERVER_TOKEN_ENDPOINT=https://TOKEN_ENDPOINT/token
+CENTRAL_IDP_SERVER_CLIENT_ID=CLIENT_ID
+CENTRAL_IDP_SERVER_REDIRECT_URI=https://REDIRECT_URI/callback
+
+#-----------Relying Party Page-------------
+REDIRECT_URI=http://localhost:8090
+LOG_LEVEL=
+
+#This is only for development purpose!!! Do not use in production
+NODE_TLS_REJECT_UNAUTHORIZED=1
