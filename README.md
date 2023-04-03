@@ -2,6 +2,16 @@
 
 # Resource Server Example for "gematik Authenticator"
 
+
+[//]: # (make this repo deprecated)
+## This repo is deprecated
+This repository is no longer maintained. Please use the [Gematik-Authenticator-Oidc-Auth-Sample](https://github.com/gematik/Vue-Oidcauth-Sample) repository instead.
+
+![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)
+[![License](https://img.shields.io/badge/License-EUPL%201.2-blue.svg)](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12)
+
+---
+
 ## Table of Contents
 
 1. [About The Project](#about-the-project)
