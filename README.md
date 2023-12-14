@@ -1,5 +1,8 @@
 <img align="right" width="200" height="37" src="assets/Gematik_Logo_Flag.png"/> <br/>
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+
 # Resource Server Example for "gematik Authenticator"
 <details>
     <summary>Table of Contents</summary>
